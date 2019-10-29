@@ -18,6 +18,7 @@ namespace Readbooks
             //save to some db
             Dictionary<String, String> keyValuePairs = new Dictionary<string, string> {
                     {"user","jonchusGP" },
+                    {"book_info", ToString() },
                     {"network","Cellular"}
 
                 };
@@ -25,5 +26,12 @@ namespace Readbooks
             //Crashes.GenerateTestCrash();
             return true;
         }
+
+        public override string ToString()
+        {
+            return $"{Name} - {Author}";
+            //return base.ToString();
+        }
+
     }
 }
