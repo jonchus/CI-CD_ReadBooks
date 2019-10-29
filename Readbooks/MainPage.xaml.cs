@@ -17,5 +17,17 @@ namespace Readbooks
         {
             InitializeComponent();
         }
+
+        async void Login_Button_Clicked(object sender, System.EventArgs e)
+        {
+            AppCenterHelper.TrackEvent("login_intent");
+            await Navigation.PushModalAsync(new LoginPage());
+        }
+
+        async void AddNew_Book_Clicked(object sender, System.EventArgs e)
+        {
+            AppCenterHelper.TrackEvent("add_book_intent");
+            await Navigation.PushAsync(new NewBookPage());
+        }
     }
 }
