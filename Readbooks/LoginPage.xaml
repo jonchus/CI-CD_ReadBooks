@@ -5,7 +5,7 @@
     <ContentPage.Content>
         
         <StackLayout   VerticalOptions="Center">
-           <Button Text="Login" BackgrondColor = "Teal" Clicked = "Login_Clicked" /> 
+           <Button Text="Login"  Clicked = "Login_Clicked" /> 
 
             
         </StackLayout>
