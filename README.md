@@ -3,4 +3,4 @@
  
 |Android|iOS|
 |---|---|
-|[![Build status](https://build.appcenter.ms/v0.1/apps/6e8aaddc-e730-41c1-b13c-8fa21aaf9afe/branches/dev/badge)](https://appcenter.ms)|[![Build status](https://build.appcenter.ms/v0.1/apps/399a94e7-c733-4487-be48-69b37a26d1e1/branches/dev/badge)](https://appcenter.ms)|
+|[![Build status](https://build.appcenter.ms/v0.1/apps/c0578a26-b262-48c0-87a9-96cabca912c4/branches/master/badge)](https://appcenter.ms)|[![Build status](https://build.appcenter.ms/v0.1/apps/341a61b6-196c-4bf8-be62-ecd1972c1790/branches/master/badge)](https://appcenter.ms)|
