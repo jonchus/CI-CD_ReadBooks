@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Readbooks.iOS", "Readbooks.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Readbooks", "Readbooks\Readbooks.csproj", "{7FA4C5D5-7664-487A-B460-BCBAFD0630B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Readbooks.Tests", "Readbooks.Tests\Readbooks.Tests.csproj", "{8E19E38B-92C7-40D3-9D9F-3CF89D151EA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,5 +55,17 @@ Global
 		{7FA4C5D5-7664-487A-B460-BCBAFD0630B8}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{7FA4C5D5-7664-487A-B460-BCBAFD0630B8}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{7FA4C5D5-7664-487A-B460-BCBAFD0630B8}.Release|iPhone.Build.0 = Release|Any CPU
+		{8E19E38B-92C7-40D3-9D9F-3CF89D151EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E19E38B-92C7-40D3-9D9F-3CF89D151EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E19E38B-92C7-40D3-9D9F-3CF89D151EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E19E38B-92C7-40D3-9D9F-3CF89D151EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E19E38B-92C7-40D3-9D9F-3CF89D151EA1}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{8E19E38B-92C7-40D3-9D9F-3CF89D151EA1}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{8E19E38B-92C7-40D3-9D9F-3CF89D151EA1}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{8E19E38B-92C7-40D3-9D9F-3CF89D151EA1}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{8E19E38B-92C7-40D3-9D9F-3CF89D151EA1}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{8E19E38B-92C7-40D3-9D9F-3CF89D151EA1}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{8E19E38B-92C7-40D3-9D9F-3CF89D151EA1}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{8E19E38B-92C7-40D3-9D9F-3CF89D151EA1}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

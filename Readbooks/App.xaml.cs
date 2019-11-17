@@ -16,12 +16,17 @@ namespace Readbooks
             MainPage = new NavigationPage( new MainPage());
         }
 
-        protected override void OnStart()
+        protected override async void OnStart()
         {
             // Handle when your app starts
-            AppCenter.Start("ios=da1594c9-2840-41d3-8abc-fb7fecc5ec02;"
-                + "android=9000b823-fcb3-438f-b485-b19b5d5924f2",
+            AppCenter.Start("ios=937f0ed9-1d75-4b62-abf1-133b54788b58;"
+                + "android=3c20d9c9-1803-4301-8bc8-8150c1b207b2",
                 typeof(Analytics),typeof(Crashes));
+
+            bool didAppCrash = await Crashes.HasCrashedInLastSessionAsync();
+            if (didAppCrash) {
+                await MainPage.DisplayAlert("I'm sorry", "Appears we had some technical issues","OK");
+            }
         }
 
         protected override void OnSleep()
