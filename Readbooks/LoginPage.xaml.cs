@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using Microsoft.AppCenter.Crashes;
 using Xamarin.Forms;
 
 namespace Readbooks
@@ -14,8 +14,11 @@ namespace Readbooks
 
       async  void Login_Clicked(object sender, System.EventArgs e)
         {
+            Crashes.GenerateTestCrash();
             try
             {
+
+               
                 Dictionary<String, String> keyValuePairs = new Dictionary<string, string> {
                     {"user","jonchusGP" },
                     {"network","Wifi" }
